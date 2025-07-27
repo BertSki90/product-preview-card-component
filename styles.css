@@ -1,0 +1,61 @@
+/* |||| IMPORT |||| */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* |||| ROOT |||| */
+
+:root {
+    /* COLORS */
+    --black: rgb(28, 35, 43);
+    --grey: rgb(108, 114, 137);
+    --cream: rgb(242, 234, 226);
+    --white: rgb(255, 255, 255);
+    --green-500: rgb(61, 129, 104);
+    --green-700: rgb(26, 64, 50);
+}
+
+/* RESET */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* |||| GENERAL |||| */
+
+html {
+    background-color: var(--cream);
+    font-size: 14px;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* |||| CARD |||| */
+
+.container {
+    background-color: var(--white);
+    border-radius: 8px;
+    height: 100%;
+    max-height: 750px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.img--perfume {
+    border-radius: 8px 8px 0 0;
+    max-height: 342px;
+}
