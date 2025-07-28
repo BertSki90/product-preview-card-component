@@ -64,7 +64,8 @@ main {
 /* |||| PERFUME DETAILS |||| */
 
 .perfume-details {
-    padding: 32px;
+    /* padding: 32px; */
+    padding: 2.286em;
 }
 
 p,
@@ -80,39 +81,47 @@ h1,
 
 label {
     color: var(--grey);
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 0.857rem;
     font-weight: medium;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
+    letter-spacing: 0.417em;
     text-transform: uppercase;
 }
 
 h1 {
     color: var(--black);
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 2.286rem;
     font-weight: bold;
-    margin: 24px 0;
+    /* margin: 24px 0; */
+    margin: 0.75em 0;
 }
 
 p {
     color: var(--grey);
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 1rem;
     font-weight: medium;
     line-height: 160%;
 }
 
 .price {
-    margin: 24px 0;
+    /* margin: 24px 0; */
+    margin: 1.714em 0;
 }
 
 .price__now {
     color: var(--green-500);
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 2.286rem;
     font-weight: bold;
 }
 
 .price__before {
     font-family: Montserrat, Arial; 
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.929rem;
     font-weight: 500;
     /* line-height: 120%; */
     text-decoration: line-through;
@@ -124,14 +133,43 @@ button {
     border: none;
     border-radius: 8px;
     color: var(--white);
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 1rem;
     font-weight: bold;
-    padding: 17.5px 0;
+    /* padding: 17.5px 0; */
+    /* padding: 1.25em 0; */
+    padding: 1.22em 0;
     width: 100%;
 }
 
 button img {
-    margin-right: 8px;
+    /* margin-right: 8px; */
+    margin-right: 0.571em;
+}
+
+.btn {
+    background-color: var(--green-500);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    /* font-size: 14px; */
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding: 17.5px 0; */
+    /* padding: 1.25em 0; */
+    padding: 1.22em 0;
+    width: 100%;
+}
+
+.btn img {
+    /* margin-right: 8px; */
+    margin-right: 0.571em;
+}
+
+.btn:hover,
+.btn:active, {
+    background-color: var(--green-700);
+    cursor: pointer;
 }
 
 /* footer {
