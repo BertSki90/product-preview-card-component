@@ -20,11 +20,19 @@
       <!-- |||| CARD |||| -->
       <div class="container">
         <!-- |||| CARD IMAGE |||| -->
-        <img
-          class="img--perfume"
-          src=".\images\image-product-mobile.jpg"
-          alt="A bottle of Gabrielle Chanel Paris perfume."
-        />
+        <picture>
+          <source
+            media="(min-width:599px)"
+            srcset=".\images\image-product-desktop.jpg"
+          />
+          <img
+            class="img--perfume"
+            src=".\images\image-product-mobile.jpg"
+            alt="A bottle of Gabrielle Chanel Paris perfume."
+          />
+        </picture>
+
+        <!--  -->
         <!-- |||| PERFUME DETAILS |||| -->
         <div class="perfume-details">
           <label>Perfume</label>
@@ -38,13 +46,13 @@
               $149.99 <span class="price__before">$169.99</span>
             </p>
           </div>
-          <!-- <button type="button">
+          <button type="button">
             <img src=".\images\icon-cart.svg" alt="Shopping cart." />Add to Cart
-          </button> -->
-          <div class="btn">
+          </button>
+          <!-- <div class="btn">
             <img src=".\images\icon-cart.svg" alt="Shopping cart." />
             <a href="#">Add to Cart</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </main>
