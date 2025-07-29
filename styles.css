@@ -97,7 +97,7 @@ h1 {
     line-height: 100%;
     /* margin: 24px 0; */
     /* margin: 0.75em 0; */
-    margin: 0.5em 0;
+    margin: 0.5em 0 0.7em;
 }
 
 p {
@@ -183,7 +183,7 @@ button:active {
         border-radius: 8px 0px 0px 8px;
         max-height: 456px;
         object-fit: cover;
-        width: 300px;
+        max-width: 300px;
     }
 
     .perfume-details {
