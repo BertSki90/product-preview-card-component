@@ -38,10 +38,8 @@ img {
 }
 
 main {
-    /* align-items: center; */
     display: flex;
     justify-content: center;
-    /* height: 100vh; */
 }
 
 /* |||| CARD |||| */
@@ -49,7 +47,6 @@ main {
 .container {
     background-color: var(--white);
     border-radius: 8px;
-    /* max-height: 750px; */
     width: 100%;
     max-width: 350px;
 }
@@ -96,7 +93,6 @@ h1 {
     font-weight: bold;
     line-height: 100%;
     /* margin: 24px 0; */
-    /* margin: 0.75em 0; */
     margin: 0.5em 0 0.7em;
 }
 
@@ -110,7 +106,6 @@ p {
 
 .price {
     /* margin: 24px 0; */
-    /* margin: 1.714em 0; */
     margin: 1.2em 0;
 }
 
@@ -126,7 +121,6 @@ p {
     /* font-size: 13px; */
     font-size: 0.929rem;
     font-weight: 500;
-    /* line-height: 120%; */
     margin-left: 1.143em;
     text-decoration: line-through;
     vertical-align: top;
@@ -141,7 +135,6 @@ button {
     font-size: 1rem;
     font-weight: bold;
     /* padding: 17.5px 0; */
-    /* padding: 1.25em 0; */
     padding: 1.22em 0;
     width: 100%;
 }
