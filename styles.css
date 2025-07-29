@@ -95,7 +95,8 @@ h1 {
     font-size: 2.286rem;
     font-weight: bold;
     /* margin: 24px 0; */
-    margin: 0.75em 0;
+    /* margin: 0.75em 0; */
+    margin: 0.5em 0;
 }
 
 p {
@@ -108,7 +109,8 @@ p {
 
 .price {
     /* margin: 24px 0; */
-    margin: 1.714em 0;
+    /* margin: 1.714em 0; */
+    margin: 1em 0;
 }
 
 .price__now {
@@ -124,6 +126,7 @@ p {
     font-size: 0.929rem;
     font-weight: 500;
     /* line-height: 120%; */
+    margin-left: 1.143em;
     text-decoration: line-through;
     vertical-align: top;
 }
@@ -147,27 +150,8 @@ button img {
     margin-right: 0.571em;
 }
 
-.btn {
-    background-color: var(--green-500);
-    border: none;
-    border-radius: 8px;
-    color: var(--white);
-    /* font-size: 14px; */
-    font-size: 1rem;
-    font-weight: bold;
-    /* padding: 17.5px 0; */
-    /* padding: 1.25em 0; */
-    padding: 1.22em 0;
-    width: 100%;
-}
-
-.btn img {
-    /* margin-right: 8px; */
-    margin-right: 0.571em;
-}
-
-.btn:hover,
-.btn:active, {
+button:hover,
+button:active {
     background-color: var(--green-700);
     cursor: pointer;
 }
@@ -177,3 +161,31 @@ button img {
     display: flex;
     justify-content: center;
 } */
+
+/* |||| MEDIA QUERRIES |||| */
+
+/* TABLET SCREEN OR BIGGER */
+@media screen and (min-width: 599px) {
+
+    main {
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        max-height: 450px;
+        max-width: 600px;
+    }
+
+    .img--perfume {
+        border-radius: 8px 0px 0px 8px;
+        max-height: 456px;
+        object-fit: cover;
+        width: 300px;
+    }
+
+    .perfume-details {
+        max-width: 300px;
+    }
+}
