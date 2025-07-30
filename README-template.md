@@ -57,7 +57,7 @@ CSS
 
 ### What I learned
 
-Completion time: 5:17 - 0:20
+Completion time: 6.5 hours.
 
 I practiced using rem and em units where appropriate. I utilized margin-inline-start and end instead of margin-left and right.
 
